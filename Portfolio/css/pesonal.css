@@ -1,0 +1,23 @@
+
+
+.pesonal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pesonal ul li {
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .pesonal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
